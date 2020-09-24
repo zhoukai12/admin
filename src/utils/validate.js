@@ -1,0 +1,1 @@
+export const validate_password = '正则验证'  //密码验证
