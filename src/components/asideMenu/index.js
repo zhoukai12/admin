@@ -34,13 +34,14 @@ class AsideMenu extends Component {
             selectedKeys: key,
             openKeys: keyPath[keyPath.length - 1]
         }
-        this.selectMenuHigh(menuHigh)
+        this.selectMenuHigh(menuHigh);
     }
 
     openMenu = (openKeys) => {
         this.setState({
             openKeys: openKeys
         })
+        
     }
 
     // 菜单高光
